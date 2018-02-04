@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato';
-  overflow-x: hidden;
+
 }
 
 h1,
@@ -32,7 +32,7 @@ hr.star-dark {
   border: none;
   border-top: solid 0.25rem;
   margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.8rem;
 }
 
 
@@ -127,7 +127,10 @@ section h2 {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+  color: white;
+  background-color: #1a1a1d;
 }
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -169,13 +172,20 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 3rem;
 }
 
 header.masthead h2 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: 'Lato';
+}
+
+header.masthead img {
+    margin-top: -3.7rem;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
 }
 
 @media (min-width: 992px) {
@@ -190,6 +200,12 @@ header.masthead h2 {
   header.masthead h2 {
     font-size: 1.75em;
   }
+  header.masthead img {
+    margin-top: 0rem;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+}
 }
 
 .aboutme {
@@ -450,4 +466,11 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.img-responsive {
+    margin-top: -3rem;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
 }
